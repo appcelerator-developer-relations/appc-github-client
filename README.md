@@ -5,6 +5,8 @@
 
 ---
 
+<img alt="TiGithub" src=".github/screenshots.jpg" width="900" />
+
 Ti.Github is a Axway Titanium based dashboard used to monitor Github organizations, repositories and more! Use
 native OAuth capabilities to authorize with the Github API and store credentials in the system-keychain.
 
