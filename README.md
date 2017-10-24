@@ -11,7 +11,7 @@ native OAuth capabilities to authorize with the Github API and store credentials
 ## Features
 
 - [x] Native cross-platform application using [Axway Titanium](https://developer.appcelerator.com/)
-- [x] Native iOS 11+ OAuth using the `SFAuthenticationSession` API with [Axway Hyperloop](http://www.appcelerator.com/mobile-app-development-products/hyperloop/)
+- [x] Native iOS 11+ OAuth using the [`SFAuthenticationSession`](https://developer.apple.com/documentation/safariservices/sfauthenticationsession) API with [Axway Hyperloop](http://www.appcelerator.com/mobile-app-development-products/hyperloop/)
 - [x] Authorization with the [Github API](https://developer.github.com/)
 - [x] Secure access-token storage using [Ti.Identity](https://github.com/appcelerator-modules/titanium-identity)
 
