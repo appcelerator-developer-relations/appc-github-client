@@ -1,0 +1,12 @@
+<Alloy>
+	<NavigationWindow module="xp.ui">
+		<Window title="Github Dashboard">
+			<RightNavButton id="authButon" platform="ios" onClick="authorize" />
+			<Menu platform="android">
+				<MenuItem id="authButton" onClick="authorize" />
+			</Menu>
+			<ListView id="list" onItemclick="showOrganizationRepositories" />
+			<ActivityIndicator id="loader" class="basicLoader" />
+		</Window>
+	</NavigationWindow>
+</Alloy>

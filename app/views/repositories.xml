@@ -1,0 +1,6 @@
+<Alloy>
+	<Window title="Repositories" onOpen="loadRepositories">
+		<ListView id="list" onItemclick="showRepository" />
+		<ActivityIndicator id="loader" class="basicLoader" />
+	</Window>
+</Alloy>

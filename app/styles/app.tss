@@ -1,0 +1,17 @@
+/* Shared global styles */
+
+"Window[platform=ios]": {
+	backButtonTitle: "",
+	backgroundColor: "#fff"
+}
+
+"ListView": {
+	style: Ti.UI.iOS.ListViewStyle.GROUPED
+}
+
+/* Shared UI styles */
+
+".basicLoader": {
+	style: Ti.UI.ActivityIndicatorStyle.BIG,
+	indicatorColor: "#333"
+}

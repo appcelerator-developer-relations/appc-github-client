@@ -1,0 +1,8 @@
+
+"#list": {
+	defaultItemTemplate: Ti.UI.LIST_ITEM_TEMPLATE_SUBTITLE
+}
+
+"#authButon": {
+	title: "Log-In"
+}
