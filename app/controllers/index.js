@@ -39,7 +39,7 @@ var accessToken,
 		$.list.sections = [];
 		toggleAuthButton();
 	});	
-	
+		
 	$.index.open();
 })();
 
@@ -52,6 +52,10 @@ function authorize() {
 }
 
 function toggleAuthButton() {
+	
+	$.list.setVisible(isAuthorized);
+	$.landing.setVisible(!isAuthorized);
+	
 	$.authButon.setTitle(isAuthorized ? 'Log-Out' : 'Log-In');
 }
 

@@ -7,6 +7,16 @@
 			</Menu>
 			<ListView id="list" onItemclick="showOrganizationRepositories" />
 			<ActivityIndicator id="loader" class="basicLoader" />
+			<View id="landing">
+				<View class="logo">
+					<ImageView class="logo-image" />
+					<Label class="logo-title" />
+				</View>
+				<View class="button" onClick="logIn">
+					<Label class="button-title" />
+					<ImageView class="button-arrow" />
+				</View>
+			</View>
 		</Window>
 	</NavigationWindow>
 </Alloy>

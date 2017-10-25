@@ -1,8 +1,56 @@
 
 "#list": {
-	defaultItemTemplate: Ti.UI.LIST_ITEM_TEMPLATE_SUBTITLE
+	defaultItemTemplate: Ti.UI.LIST_ITEM_TEMPLATE_SUBTITLE,
+	visible: false
 }
 
 "#authButon": {
 	title: "Log-In"
+}
+
+"#landing": {
+	height: 165,
+	visible: false
+}
+
+".logo": {
+	layout: "vertical",
+	top: 0
+}
+
+".logo-image": {
+	image: "logo.png",
+	top: 0
+}
+
+".logo-title": {
+	text: "TiGithub",
+	top: 10,
+	font: {
+		fontSize: 16,
+		fontWeight: "bold"
+	},
+	color: "#484848"
+}
+
+".button": {
+	bottom: 0,
+	height: 40,
+	backgroundColor: '#2bd122',
+	width: 300,
+	borderRadius: 8
+}
+
+".button-title": {
+	font: {
+		fontSize: 17,
+		fontWeight: 'semibold'
+	},
+	text: 'Authorize with Github',
+	color: '#fff'
+}
+
+".button-arrow": {
+	right: 10,
+	image: "arrow.png"
 }
