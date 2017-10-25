@@ -1,0 +1,9 @@
+'#debug': {
+	editable: false,
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	font: {
+		fontFamily: 'Courier New',
+		fontSize: 13
+	}
+}

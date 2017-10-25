@@ -10,7 +10,7 @@ var organization,
 	repositories = [];
 	organization = args.organization;
 	accessToken = args.accessToken;
-	navigation = args.navigation;
+	navigation = args.navigation;	
 })(arguments[0] || {});
 
 function loadRepositories() {
@@ -24,7 +24,6 @@ function loadRepositories() {
 		repositories = response;
 		refreshUI();
 	});
-	$.loader.hide();
 }
 
 function refreshUI() {
@@ -46,10 +45,10 @@ function refreshUI() {
 }
 
 function showRepository(e) {	
-	alert('TODO: Expose repository-view');
-	// navigation.openWindow(Alloy.createController('/repository', {
-	// 	accessToken: accessToken,
-	// 	repository: e.itemId,
-	// 	navigation: navigation
-	// }).getView());
+	navigation.openWindow(Alloy.createController('/repository', {
+		accessToken: accessToken,
+		organization: organization,
+		repository: e.itemId,
+		navigation: navigation
+	}).getView());
 }

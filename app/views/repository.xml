@@ -1,0 +1,6 @@
+<Alloy>
+	<Window title="Repository" onOpen="loadRepositoryDetails">
+		<ActivityIndicator id="loader" class="basicLoader" />
+		<TextArea id="debug" />
+	</Window>
+</Alloy>
