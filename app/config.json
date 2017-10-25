@@ -1,0 +1,21 @@
+{
+	"global": {
+		"iOS": {
+			"teamID": "YOUR_APP_TEAM_ID"
+		},
+		"Github": {
+			"apiBase": "https://api.github.com",
+			"clientID": "YOUR_GITHUB_CLIENT_ID",
+			"secretID": "YOUR_GITHUB_SECRET_ID"
+		}
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"os:windows": {},
+	"dependencies": {}
+}
