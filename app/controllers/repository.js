@@ -32,6 +32,19 @@ function loadRepositoryDetails() {
 }
 
 function refreshUI() {
-		console.log(repositoryDetails);
-		$.debug.setValue(repositoryDetails);
+	$.list.animate({
+		visible: true
+	});
+	console.log(repositoryDetails);
+}
+
+function openInBrowser() {
+	Ti.Platform.openURL(repositoryDetails.html_url);
+}
+
+function toggleAction(e) {
+	var item = e.section.getItemAt(e.itemIndex);
+	var identifier = item.properties.bindId;
+
+	alert('TODO: Implement action with identifier = ' + identifier);
 }

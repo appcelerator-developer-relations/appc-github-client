@@ -1,9 +1,7 @@
-'#debug': {
-	editable: false,
-	height: Ti.UI.FILL,
-	width: Ti.UI.FILL,
-	font: {
-		fontFamily: 'Courier New',
-		fontSize: 13
-	}
+'#list': {
+	visible: false
+}
+
+'ListItem': {
+	accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE
 }

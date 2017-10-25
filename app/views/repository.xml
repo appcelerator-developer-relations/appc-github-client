@@ -1,6 +1,18 @@
 <Alloy>
 	<Window title="Repository" onOpen="loadRepositoryDetails">
+		<RightNavButton systemButton="ACTION" onClick="openInBrowser" />
+		<ListView id="list" onItemclick="toggleAction">
+			<ListSection id="general" headerTitle="General">
+				<ListItem bindId="pulls" title="Pull Requests" />
+				<ListItem bindId="issues" title="Issues" />
+				<ListItem bindId="contributors" title="Contributors" />
+				<ListItem bindId="stargazers" title="Stargazers" />
+			</ListSection>
+			<ListSection id="misc" headerTitle="More Actions">
+				<ListItem bindId="open" title="Open in Browser" />
+				<ListItem bindId="open" title="Add to Favorites" />
+			</ListSection>
+		</ListView>
 		<ActivityIndicator id="loader" class="basicLoader" />
-		<TextArea id="debug" />
 	</Window>
 </Alloy>
