@@ -1,39 +1,39 @@
 
-"#list": {
+'#list': {
 	defaultItemTemplate: Ti.UI.LIST_ITEM_TEMPLATE_SUBTITLE,
 	visible: false
 }
 
-"#authButon": {
-	title: "Log-In"
+'#authButon': {
+	title: 'Log-In'
 }
 
-"#landing": {
+'#landing': {
 	height: 165,
 	visible: false
 }
 
-".logo": {
-	layout: "vertical",
+'.logo': {
+	layout: 'vertical',
 	top: 0
 }
 
-".logo-image": {
-	image: "logo.png",
+'.logo-image': {
+	image: 'logo.png',
 	top: 0
 }
 
-".logo-title": {
-	text: "TiGithub",
+'.logo-title': {
+	text: 'TiGithub',
 	top: 10,
 	font: {
 		fontSize: 16,
-		fontWeight: "bold"
+		fontWeight: 'bold'
 	},
-	color: "#484848"
+	color: '#484848'
 }
 
-".button": {
+'.button': {
 	bottom: 0,
 	height: 40,
 	backgroundColor: '#2bd122',
@@ -41,7 +41,7 @@
 	borderRadius: 8
 }
 
-".button-title": {
+'.button-title': {
 	font: {
 		fontSize: 17,
 		fontWeight: 'semibold'
@@ -50,7 +50,7 @@
 	color: '#fff'
 }
 
-".button-arrow": {
+'.button-arrow': {
 	right: 10,
-	image: "arrow.png"
+	image: 'arrow.png'
 }

@@ -32,6 +32,7 @@ function refreshUI() {
 	_.each(repositories, function(repository) {
 		var cell = {
 			properties: {
+				searchableText: repository.name,
 				itemId: repository.name,
 				title: repository.name,
 				subtitle: repository.description ? repository.description : 'No Description',

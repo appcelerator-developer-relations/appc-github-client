@@ -1,3 +1,7 @@
-"#list": {
+'#list': {
 	defaultItemTemplate: Ti.UI.LIST_ITEM_TEMPLATE_SUBTITLE
+}
+
+'.search': {
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE 
 }
